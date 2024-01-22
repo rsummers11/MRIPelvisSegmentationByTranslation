@@ -1,7 +1,7 @@
 ## **Instructions**  
 
 #### Running the pipeline  
-1. Prepare the data using the instructions below.
+1. Prepare the data using the 'dataset' instructions below.
 2. Use the preprocessing code (inside utils folder) to convert nii.gz to .png files. Packages used for the code are specified in the code.
 3. We experimented 3 image synthesis models as shown below:    
    - Pix2Pix (https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)  
