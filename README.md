@@ -18,7 +18,7 @@
 1. Since we don't own the datasets used in the study, you need to download them. For training, we used Gold Atlas - Male Pelvis dataset while the TCGA-UCEC for the testing. Please see the detailed information below to obtain the datasets.
 2. Training: Gold Atlas - Male Pelvis dataset, which can be downloaded here: https://zenodo.org/records/583096  
 3. Testing:  
-       TCGA-UCEC Dataset, which can be downloaded here: https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=19039602 . We used the T2 sequences as shown below. Then since the raw image files were in DICOM format, we used itk-snap to convert them to NIFTI format.  
+       CPTAC-UCEC Dataset, which can be downloaded here: [https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=19039602](https://www.cancerimagingarchive.net/collection/cptac-ucec/) . We used the T2 sequences as shown below. Then since the raw image files were in DICOM format, we used itk-snap to convert them to NIFTI format.  
 
           ├── CPTAC-UCEC\C3N-00858\01-08-2000-NA-MIEDNICA-65907\4.000000-t2bltsetra-76193  
           ├── CPTAC-UCEC\C3N-00860\01-22-2000-NA-MIEDNICA-33628\4.000000-t2bltsetra-29838  
